@@ -2,14 +2,14 @@ name: Build and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
-  MEDIUM_USERNAME: "saadpasta" # Change this to your medium username
+  MEDIUM_USERNAME: "Lixi74" # Change this to your medium username
 on:
   workflow_dispatch:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: "0 12 * * 1" # see https://docs.github.com/en/actions/reference/events-that-trigger-workflows#scheduled-events
 jobs:
@@ -27,15 +27,16 @@ jobs:
           node-version: 18.x
 
       - name: Update npm 🚀
-        run: npm install -g npm@latest
+        run: npm install -g npm@10.8.2
 
       - name: Install and Build 🔧 # Build the Project
         run: |
           npm install
           npm run build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN : ${{ secrets.GITHUB_TOKEN }} # This is provided by GitHub.
+          token: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }} # Use the environment variable defined above
           BRANCH: gh-pages # The branch the action should deploy to.
           FOLDER: build # The folder the action should deploy.
