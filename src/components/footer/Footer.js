@@ -21,11 +21,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Adaptado y desarrollado por ")}
-          <a
-            href="https://github.com/Daga321"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="https://github.com/Daga321" target="_blank" rel="noreferrer">
             {emoji("Daga321 👨‍💻")}
           </a>
         </p>

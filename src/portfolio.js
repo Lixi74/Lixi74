@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Soprano y artista pop. Combino la técnica lírica con la emoción del pop para crear música que conecta. Soy también profesora de técnica vocal, directora coral y actriz de doblaje. Vivo la voz como una herramienta creativa y transformadora, dentro y fuera del escenario."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -48,19 +47,25 @@ const skillsSection = {
   title: "Que hago",
   subTitle: "APACIONADA CANTANTE QUE GUSTA DE CREAR MÚSICA",
   skills: [
-    emoji("🎵 Enseñanza y dirección para cantantes y agrupaciones en múltiples géneros musicales"),
-    emoji("🎵 Ensamble musical para coros, con experiencia en presentaciones y proyectos colaborativos"),
+    emoji(
+      "🎵 Enseñanza y dirección para cantantes y agrupaciones en múltiples géneros musicales"
+    ),
+    emoji(
+      "🎵 Ensamble musical para coros, con experiencia en presentaciones y proyectos colaborativos"
+    ),
     emoji("🎵 Composición musical: letra, armonía y creación de pistas"),
-    emoji("🎵 Directora coral, encargada de la preparación vocal y liderazgo artístico"),
-    emoji("🎵 Habilidosa vocalista para agrupaciones y colaboraciones, tanto como solista como integrante clave en ensambles corales")
+    emoji(
+      "🎵 Directora coral, encargada de la preparación vocal y liderazgo artístico"
+    ),
+    emoji(
+      "🎵 Habilidosa vocalista para agrupaciones y colaboraciones, tanto como solista como integrante clave en ensambles corales"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    
-  ],
+  softwareSkills: [],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -70,7 +75,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Canto", 
+      Stack: "Canto",
       progressPercentage: "90%"
     },
     {
@@ -84,7 +89,6 @@ const techStack = {
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
-
 
 // Education Section
 
@@ -108,7 +112,6 @@ const educationInfo = {
     }
   ]
 };
-
 
 // Work experience section
 
@@ -161,7 +164,8 @@ const bigProjects = {
     {
       image: require("./assets/images/lixi&jax.jpg"),
       projectName: "Lixi & Jax",
-      projectDesc: "Somos un dueto pop freak con un toque de locura. Estamos dando nuestros primeros pasos en este emocionante mundo musical. ¡Esperamos que disfruten nuestra música tanto como nosotros disfrutamos haciéndola!",
+      projectDesc:
+        "Somos un dueto pop freak con un toque de locura. Estamos dando nuestros primeros pasos en este emocionante mundo musical. ¡Esperamos que disfruten nuestra música tanto como nosotros disfrutamos haciéndola!",
       footerLink: [
         {
           name: "Spotify",
@@ -201,11 +205,13 @@ const achievementSection = {
       ]
     },
     {
-      title: "Ensamble coral en el Festival Internacional de Música Sacra de Bogotá",
+      title:
+        "Ensamble coral en el Festival Internacional de Música Sacra de Bogotá",
       subtitle:
         "Participación destacada como integrante de la Fusión Coro Estable Juan N. Corpas y Tinkuy Ensamble Vocal en el XIII Festival Internacional de Música Sacra de Bogotá 2024. Presentación de la obra 'Réquiem' de Antonio María Valencia bajo la dirección del Maestro Carlos Escalante, en la Parroquia San Diego, ante más de cien asistentes.",
       image: require("./assets/images/replaceme.png"),
-      imageAlt: "Presentación en el Festival Internacional de Música Sacra de Bogotá",
+      imageAlt:
+        "Presentación en el Festival Internacional de Música Sacra de Bogotá",
       footerLink: [
         {
           name: "Ver en Youtube",
@@ -261,9 +267,7 @@ const podcastSection = {
   subtitle: "ME GUSTA COMPARTIR MIS HISTORIAS CON EL MUNDO",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -290,7 +294,6 @@ const contactInfo = {
   number: "+92-0000000000",
   email_address: "saadpasta70@gmail.com"
 };
-
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
