@@ -1,27 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.0cd025f9.css",
-    "main.js": "/static/js/main.c102a25c.js",
-    "static/css/769.8c79136d.chunk.css": "/static/css/769.8c79136d.chunk.css",
-    "static/js/769.88165ab4.chunk.js": "/static/js/769.88165ab4.chunk.js",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/lixi&jax.jpg": "/static/media/lixi&jax.eb6281b95dbf753ef3b8.jpg",
-    "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
-    "static/media/Marguz.webp": "/static/media/Marguz.eca3c285e6a85caf0828.webp",
-    "static/media/MiConservatorio.webp": "/static/media/MiConservatorio.2937c38b2a00a9b58474.webp",
-    "static/media/replaceme.png": "/static/media/replaceme.613e16420ddc917925ff.png",
-    "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
-    "static/media/JuanNCorpas.webp": "/static/media/JuanNCorpas.80d6c5f48f6f5cac379f.webp",
-    "static/media/resume.pdf": "/static/media/resume.f0f733dd3cd732b39262.pdf",
-    "index.html": "/index.html",
-    "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.0cd025f9.css.map": "/static/css/main.0cd025f9.css.map",
-    "main.c102a25c.js.map": "/static/js/main.c102a25c.js.map",
-    "769.8c79136d.chunk.css.map": "/static/css/769.8c79136d.chunk.css.map",
-    "769.88165ab4.chunk.js.map": "/static/js/769.88165ab4.chunk.js.map"
+    "main.css": "/lixi74/static/css/main.e6be1648.css",
+    "main.js": "/lixi74/static/js/main.f9f61c50.js",
+    "static/css/769.8c79136d.chunk.css": "/lixi74/static/css/769.8c79136d.chunk.css",
+    "static/js/769.4b322328.chunk.js": "/lixi74/static/js/769.4b322328.chunk.js",
+    "static/media/Montserrat-Regular.ttf": "/lixi74/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/lixi&jax.jpg": "/lixi74/static/media/lixi&jax.eb6281b95dbf753ef3b8.jpg",
+    "static/media/Agustina.woff": "/lixi74/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Marguz.webp": "/lixi74/static/media/Marguz.eca3c285e6a85caf0828.webp",
+    "static/media/MiConservatorio.webp": "/lixi74/static/media/MiConservatorio.2937c38b2a00a9b58474.webp",
+    "static/media/replaceme.png": "/lixi74/static/media/replaceme.613e16420ddc917925ff.png",
+    "static/media/JuanNCorpas.webp": "/lixi74/static/media/JuanNCorpas.80d6c5f48f6f5cac379f.webp",
+    "static/media/resume.pdf": "/lixi74/static/media/resume.f0f733dd3cd732b39262.pdf",
+    "index.html": "/lixi74/index.html",
+    "static/media/talksCardBack.svg": "/lixi74/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.e6be1648.css.map": "/lixi74/static/css/main.e6be1648.css.map",
+    "main.f9f61c50.js.map": "/lixi74/static/js/main.f9f61c50.js.map",
+    "769.8c79136d.chunk.css.map": "/lixi74/static/css/769.8c79136d.chunk.css.map",
+    "769.4b322328.chunk.js.map": "/lixi74/static/js/769.4b322328.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0cd025f9.css",
-    "static/js/main.c102a25c.js"
+    "static/css/main.e6be1648.css",
+    "static/js/main.f9f61c50.js"
   ]
 }
