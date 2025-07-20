@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lixi74/static/css/main.e6be1648.css",
+    "main.css": "/lixi74/static/css/main.ffc2db0f.css",
     "main.js": "/lixi74/static/js/main.f9f61c50.js",
     "static/css/769.8c79136d.chunk.css": "/lixi74/static/css/769.8c79136d.chunk.css",
     "static/js/769.4b322328.chunk.js": "/lixi74/static/js/769.4b322328.chunk.js",
@@ -14,13 +14,13 @@
     "static/media/resume.pdf": "/lixi74/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/lixi74/index.html",
     "static/media/talksCardBack.svg": "/lixi74/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.e6be1648.css.map": "/lixi74/static/css/main.e6be1648.css.map",
+    "main.ffc2db0f.css.map": "/lixi74/static/css/main.ffc2db0f.css.map",
     "main.f9f61c50.js.map": "/lixi74/static/js/main.f9f61c50.js.map",
     "769.8c79136d.chunk.css.map": "/lixi74/static/css/769.8c79136d.chunk.css.map",
     "769.4b322328.chunk.js.map": "/lixi74/static/js/769.4b322328.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6be1648.css",
+    "static/css/main.ffc2db0f.css",
     "static/js/main.f9f61c50.js"
   ]
 }
