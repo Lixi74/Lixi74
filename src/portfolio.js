@@ -48,71 +48,18 @@ const skillsSection = {
   title: "Que hago",
   subTitle: "APACIONADA CANTANTE QUE GUSTA DE CREAR MÚSICA",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("🎵 Enseñanza y dirección para cantantes y agrupaciones en múltiples géneros musicales"),
+    emoji("🎵 Ensamble musical para coros, con experiencia en presentaciones y proyectos colaborativos"),
+    emoji("🎵 Composición musical: letra, armonía y creación de pistas"),
+    emoji("🎵 Directora coral, encargada de la preparación vocal y liderazgo artístico"),
+    emoji("🎵 Habilidosa vocalista para agrupaciones y colaboraciones, tanto como solista como integrante clave en ensambles corales")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -147,12 +94,16 @@ const educationInfo = {
     {
       schoolName: "Universidad Juan N. Corpas",
       logo: require("./assets/images/JuanNCorpas.webp"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "Enero 2019 - Septiembre 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      subHeader: "Pregrado en Canto Lírico",
+      duration: "Enero 2019 - Julio 2025",
+      desc: "Formación profesional en canto lírico, con énfasis en el desarrollo de habilidades vocales, interpretativas y pedagógicas. El programa fomenta el trabajo colaborativo en ensambles corales y la participación en múltiples exposiciones y presentaciones de canto lírico, permitiendo el crecimiento artístico y escénico de sus estudiantes.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Participación activa en ensambles corales y proyectos colaborativos",
+        "Presentaciones regulares en recitales y eventos de canto lírico",
+        "Estudio profundo de teoría musical, historia de la música y análisis de repertorio",
+        "Desarrollo de habilidades para cantar en diversos idiomas: italiano, alemán, francés y español",
+        "Formación en pedagogía vocal y técnicas de enseñanza musical",
+        "Enfoque en dirección coral y liderazgo artístico dentro de agrupaciones musicales"
       ]
     }
   ]
@@ -165,14 +116,16 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Profesora de canto y coro",
+      role: "Profesora de técnica vocal y directora coral",
       company: "Marguz",
       companylogo: require("./assets/images/Marguz.webp"),
-      date: "Marzo 2025 – Presentw",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Marzo 2025 – Presente",
+      desc: "Docente de técnica vocal para la Fundación Marguz, liderando el coro institucional. Encargada de la formación vocal de los integrantes, desarrollo de repertorio coral y organización de presentaciones musicales. Trabajo enfocado en el crecimiento artístico y vocal de los participantes, promoviendo el trabajo en equipo y la expresión musical.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Impartición de clases de técnica vocal a niños y adultos",
+        "Dirección y liderazgo del coro institucional",
+        "Organización de ensayos y presentaciones musicales",
+        "Fomento del trabajo colaborativo y la creatividad musical"
       ]
     },
     {
@@ -180,7 +133,13 @@ const workExperiences = {
       company: "Mi Conservatorio",
       companylogo: require("./assets/images/MiConservatorio.webp"),
       date: "Noviembre 2024 – Diciembre 2024",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Trabajo durante la temporada navideña, organizando y dirigiendo el coro infantil y juvenil para presentaciones artísticas de fin de año. Responsable de la preparación vocal, selección de repertorio y coordinación de ensayos, asegurando un alto nivel técnico y artístico en cada actuación.",
+      descBullets: [
+        "Organización y dirección de ensayos corales para niños y jóvenes",
+        "Preparación vocal y selección de repertorio acorde a la temporada",
+        "Coordinación logística y artística para presentaciones públicas",
+        "Enfoque en el desarrollo técnico y expresivo de los participantes"
+      ]
     }
   ]
 };
@@ -229,15 +188,28 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Recital de grado",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Con orgullo enseño mi recital de grado en el auditorio de Uniandinos. Pasando por las obras :",
+      image: require("./assets/images/replaceme.png"),
+      imageAlt: "Puesta en escena del recital de grado",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "Ver en Youtube",
+          url: "https://youtu.be/Vh7xr4VmJK4?feature=shared"
+        }
+      ]
+    },
+    {
+      title: "Ensamble coral en el Festival Internacional de Música Sacra de Bogotá",
+      subtitle:
+        "Participación destacada como integrante de la Fusión Coro Estable Juan N. Corpas y Tinkuy Ensamble Vocal en el XIII Festival Internacional de Música Sacra de Bogotá 2024. Presentación de la obra 'Réquiem' de Antonio María Valencia bajo la dirección del Maestro Carlos Escalante, en la Parroquia San Diego, ante más de cien asistentes.",
+      image: require("./assets/images/replaceme.png"),
+      imageAlt: "Presentación en el Festival Internacional de Música Sacra de Bogotá",
+      footerLink: [
+        {
+          name: "Ver en Youtube",
+          url: "https://youtu.be/xWOxJ4gghvE?feature=shared"
         }
       ]
     }

@@ -11,7 +11,7 @@ export default function Contact() {
   const {isDark} = useContext(StyleContext);
   return (
     <Fade bottom duration={1000} distance="20px">
-      <div className="main contact-margin-top" id="contact">
+      <div className="main contact-margin-top" id="contactame">
         <div className="contact-div-main">
           <div className="contact-header">
             <h1 className="heading contact-title">{contactInfo.title}</h1>
@@ -58,7 +58,7 @@ export default function Contact() {
             ) : (
               <img
                 alt="Man working"
-                src={require("../../assets/images/replaceme.png").default}
+                src={require("../../assets/images/replaceme.png")}
               ></img>
             )}
           </div>
