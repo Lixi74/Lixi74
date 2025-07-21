@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/Lixi74/static/css/main.df98d922.css",
-    "main.js": "/Lixi74/static/js/main.0d64e4f9.js",
-    "static/css/769.8c79136d.chunk.css": "/Lixi74/static/css/769.8c79136d.chunk.css",
-    "static/js/769.4b322328.chunk.js": "/Lixi74/static/js/769.4b322328.chunk.js",
+    "main.css": "/Lixi74/static/css/main.3d160766.css",
+    "main.js": "/Lixi74/static/js/main.0f623918.js",
+    "static/css/769.a73d5c4d.chunk.css": "/Lixi74/static/css/769.a73d5c4d.chunk.css",
+    "static/js/769.ac150e68.chunk.js": "/Lixi74/static/js/769.ac150e68.chunk.js",
+    "static/media/Recital.webp": "/Lixi74/static/media/Recital.803f0a6bdc9a89cb57ba.webp",
     "static/media/Montserrat-Regular.ttf": "/Lixi74/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/lixi&jax.jpg": "/Lixi74/static/media/lixi&jax.eb6281b95dbf753ef3b8.jpg",
+    "static/media/FIMSAC-2024.webp": "/Lixi74/static/media/FIMSAC-2024.b2fbb071fa03738833de.webp",
     "static/media/Agustina.woff": "/Lixi74/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/Marguz.webp": "/Lixi74/static/media/Marguz.eca3c285e6a85caf0828.webp",
     "static/media/MiConservatorio.webp": "/Lixi74/static/media/MiConservatorio.2937c38b2a00a9b58474.webp",
@@ -14,13 +16,13 @@
     "static/media/resume.pdf": "/Lixi74/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/Lixi74/index.html",
     "static/media/talksCardBack.svg": "/Lixi74/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.df98d922.css.map": "/Lixi74/static/css/main.df98d922.css.map",
-    "main.0d64e4f9.js.map": "/Lixi74/static/js/main.0d64e4f9.js.map",
-    "769.8c79136d.chunk.css.map": "/Lixi74/static/css/769.8c79136d.chunk.css.map",
-    "769.4b322328.chunk.js.map": "/Lixi74/static/js/769.4b322328.chunk.js.map"
+    "main.3d160766.css.map": "/Lixi74/static/css/main.3d160766.css.map",
+    "main.0f623918.js.map": "/Lixi74/static/js/main.0f623918.js.map",
+    "769.a73d5c4d.chunk.css.map": "/Lixi74/static/css/769.a73d5c4d.chunk.css.map",
+    "769.ac150e68.chunk.js.map": "/Lixi74/static/js/769.ac150e68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df98d922.css",
-    "static/js/main.0d64e4f9.js"
+    "static/css/main.3d160766.css",
+    "static/js/main.0f623918.js"
   ]
 }
