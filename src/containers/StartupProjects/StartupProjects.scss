@@ -2,8 +2,8 @@
 
 .card-image {
   max-width: 100%;
-  height: auto;
-  width: 250px;
+  max-height: 250px;
+  // width: 250px;
 }
 .card-title {
   color: $titleColor;
@@ -80,6 +80,9 @@
   padding: 0 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+}
+span.project-tag:hover {
+  background: $buttonHover;
 }
 
 @media (max-width: 768px) {

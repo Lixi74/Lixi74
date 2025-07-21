@@ -195,7 +195,7 @@ const achievementSection = {
       title: "Recital de grado",
       subtitle:
         "Con orgullo enseño mi recital de grado en el auditorio de Uniandinos. Pasando por las obras :",
-      image: require("./assets/images/replaceme.png"),
+      image: require("./assets/images/Recital.webp"),
       imageAlt: "Puesta en escena del recital de grado",
       footerLink: [
         {
@@ -209,7 +209,7 @@ const achievementSection = {
         "Ensamble coral en el Festival Internacional de Música Sacra de Bogotá",
       subtitle:
         "Participación destacada como integrante de la Fusión Coro Estable Juan N. Corpas y Tinkuy Ensamble Vocal en el XIII Festival Internacional de Música Sacra de Bogotá 2024. Presentación de la obra 'Réquiem' de Antonio María Valencia bajo la dirección del Maestro Carlos Escalante, en la Parroquia San Diego, ante más de cien asistentes.",
-      image: require("./assets/images/replaceme.png"),
+      image: require("./assets/images/FIMSAC-2024.webp"),
       imageAlt:
         "Presentación en el Festival Internacional de Música Sacra de Bogotá",
       footerLink: [
@@ -288,11 +288,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contáctame ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Tienes un evento del que quieras discutir? Estoy lista para comenzar.",
+  number: "+57 3134089878",
+  email_address: "linapaipa74@gmail.com"
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

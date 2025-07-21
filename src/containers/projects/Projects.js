@@ -16,7 +16,11 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      // Construir la URL de manera que funcione tanto en localhost como en GitHub Pages
+      const baseUrl = process.env.PUBLIC_URL || '';
+      const profileUrl = `${baseUrl}/profile.json`;
+      
+      fetch(profileUrl)
         .then(result => {
           if (result.ok) {
             return result.json();
