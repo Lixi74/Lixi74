@@ -33,7 +33,9 @@ export default function StackProgress() {
             ) : (
               <img
                 alt="Work in progress"
-                src={require("../../assets/images/work-in-progress.svg").default}
+                src={
+                  require("../../assets/images/work-in-progress.svg").default
+                }
               />
             )}
           </div>
