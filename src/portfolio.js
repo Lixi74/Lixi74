@@ -290,7 +290,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contáctame ☎️"),
   subtitle:
-    "Tienes un evento del que quieras discutir? Estoy lista para comenzar.",
+    "¿Tienes un evento del que quieras discutir? Estoy lista para comenzar.",
   number: "+57 3134089878",
   email_address: "linapaipa74@gmail.com"
 };

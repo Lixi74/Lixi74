@@ -32,8 +32,8 @@ export default function StackProgress() {
               <DisplayLottie animationData={Build} />
             ) : (
               <img
-                alt="Skills"
-                src={require("../../assets/images/replaceme.png")}
+                alt="Work in progress"
+                src={require("../../assets/images/work-in-progress.svg").default}
               />
             )}
           </div>
