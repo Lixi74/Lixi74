@@ -10,49 +10,89 @@
   line-height: normal;
 }
 
-.logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
-  color: $buttonColor;
-}
-
-
-.grey-color {
-  color: $subTitle;
-}
-
-
 .splash-title-container {
   font-size: 2.5rem;
   text-decoration: none;
 }
 
-// Theme styles for splash-title and logo
-.light-theme {
-  .splash-title {
-    color: $educationCardBorder;
+// Common font styles
+.logo-name,
+.splash-title {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+}
+
+.logo-name {
+  padding: 0 10px;
+}
+
+.splash-title {
+  padding: 0 20px;
+}
+
+// Pentagram styles (same for both themes)
+.pentagram-light,
+.pentagram-dark {
+  .pentagram-line {
+    stroke: $subTitle;
   }
+  .treble-clef {
+    fill: $subTitle;
+  }
+}
+
+// Username container base styles
+.username-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  background: transparent;
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  box-sizing: border-box;
+  font-size: 3.8rem;
+  overflow: visible;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.username-splash {
+  padding: 8px 24px;
+}
+
+.username-header {
+  padding: 4px 12px;
+}
+
+// Theme-based styles
+.light-theme {
+  .splash-title,
   .logo {
     color: $educationCardBorder;
+  }
+  
+  .username-container {
+    color: $educationCardBorder !important;
+    text-shadow: -4px -4px 0 $lightBackground1, 4px -4px 0 $lightBackground1, -4px 4px 0 $lightBackground1, 4px 4px 0 $lightBackground1;
   }
 }
 
 .dark-theme {
-  .splash-title {
-    color: $buttonColor;
-  }
+  .splash-title,
   .logo {
     color: $buttonColor;
   }
-}
-
-.splash-title {
-  font-family: "Agustina Regular", cursive;
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 20px;
+  
+  .username-container {
+    color: $buttonColor !important;
+    text-shadow: -4px -4px 0 $darkBackground, 4px -4px 0 $darkBackground, -4px 4px 0 $darkBackground, 4px 4px 0 $darkBackground;
+  }
 }
