@@ -78,10 +78,11 @@
   .logo {
     color: $educationCardBorder;
   }
-  
+
   .username-container {
     color: $educationCardBorder !important;
-    text-shadow: -4px -4px 0 $lightBackground1, 4px -4px 0 $lightBackground1, -4px 4px 0 $lightBackground1, 4px 4px 0 $lightBackground1;
+    text-shadow: -4px -4px 0 $lightBackground1, 4px -4px 0 $lightBackground1,
+      -4px 4px 0 $lightBackground1, 4px 4px 0 $lightBackground1;
   }
 }
 
@@ -90,9 +91,10 @@
   .logo {
     color: $buttonColor;
   }
-  
+
   .username-container {
     color: $buttonColor !important;
-    text-shadow: -4px -4px 0 $darkBackground, 4px -4px 0 $darkBackground, -4px 4px 0 $darkBackground, 4px 4px 0 $darkBackground;
+    text-shadow: -4px -4px 0 $darkBackground, 4px -4px 0 $darkBackground,
+      -4px 4px 0 $darkBackground, 4px 4px 0 $darkBackground;
   }
 }

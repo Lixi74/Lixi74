@@ -17,9 +17,9 @@ export default function Profile() {
     if (openSource.showGithubProfile === "true") {
       const getProfileData = () => {
         // Construir la URL de manera que funcione tanto en localhost como en GitHub Pages
-        const baseUrl = process.env.PUBLIC_URL || '';
+        const baseUrl = process.env.PUBLIC_URL || "";
         const profileUrl = `${baseUrl}/profile.json`;
-        
+
         fetch(profileUrl)
           .then(result => {
             if (result.ok) {

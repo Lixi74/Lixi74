@@ -12,7 +12,7 @@ export default function SplashScreen() {
       <div className="splash-animation-container">
         <DisplayLottie animationData={splashScreen.animation} />
       </div>
-      <Badge splashScreen={true}/>
+      <Badge splashScreen={true} />
     </div>
   );
 }

@@ -28,7 +28,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
-        <Badge splashScreen={false}/>
+        <Badge splashScreen={false} />
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
