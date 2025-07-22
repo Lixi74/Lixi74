@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Lixi74/static/css/main.09142dad.css",
-    "main.js": "/Lixi74/static/js/main.89f39e7c.js",
+    "main.css": "/Lixi74/static/css/main.096b85cb.css",
+    "main.js": "/Lixi74/static/js/main.d5f633db.js",
     "static/css/769.a73d5c4d.chunk.css": "/Lixi74/static/css/769.a73d5c4d.chunk.css",
     "static/js/769.6baa4bd2.chunk.js": "/Lixi74/static/js/769.6baa4bd2.chunk.js",
     "static/media/Recital.webp": "/Lixi74/static/media/Recital.803f0a6bdc9a89cb57ba.webp",
@@ -16,13 +16,13 @@
     "static/media/resume.pdf": "/Lixi74/static/media/resume.f0f733dd3cd732b39262.pdf",
     "index.html": "/Lixi74/index.html",
     "static/media/talksCardBack.svg": "/Lixi74/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.09142dad.css.map": "/Lixi74/static/css/main.09142dad.css.map",
-    "main.89f39e7c.js.map": "/Lixi74/static/js/main.89f39e7c.js.map",
+    "main.096b85cb.css.map": "/Lixi74/static/css/main.096b85cb.css.map",
+    "main.d5f633db.js.map": "/Lixi74/static/js/main.d5f633db.js.map",
     "769.a73d5c4d.chunk.css.map": "/Lixi74/static/css/769.a73d5c4d.chunk.css.map",
     "769.6baa4bd2.chunk.js.map": "/Lixi74/static/js/769.6baa4bd2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09142dad.css",
-    "static/js/main.89f39e7c.js"
+    "static/css/main.096b85cb.css",
+    "static/js/main.d5f633db.js"
   ]
 }
