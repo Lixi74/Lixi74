@@ -1,0 +1,58 @@
+@import "../../_globalColor";
+
+.logo {
+  display: block;
+  flex: none;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: 10px;
+  line-height: normal;
+}
+
+.logo-name {
+  font-family: "Agustina Regular";
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 10px;
+  color: $buttonColor;
+}
+
+
+.grey-color {
+  color: $subTitle;
+}
+
+
+.splash-title-container {
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+
+// Theme styles for splash-title and logo
+.light-theme {
+  .splash-title {
+    color: $educationCardBorder;
+  }
+  .logo {
+    color: $educationCardBorder;
+  }
+}
+
+.dark-theme {
+  .splash-title {
+    color: $buttonColor;
+  }
+  .logo {
+    color: $buttonColor;
+  }
+}
+
+.splash-title {
+  font-family: "Agustina Regular", cursive;
+  font-weight: bold;
+  font-variant-ligatures: no-common-ligatures;
+  -webkit-font-variant-ligatures: no-common-ligatures;
+  padding: 0 20px;
+}
