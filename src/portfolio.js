@@ -75,15 +75,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Canto",
+      Stack: "Canto y pedagogia vocal",
       progressPercentage: "90%"
     },
     {
-      Stack: "Pedagogía vocal",
+      Stack: "Doblaje de voz",
       progressPercentage: "80%"
     },
     {
-      Stack: "Direccion coral",
+      Stack: "Dirección coral",
       progressPercentage: "70%"
     }
   ],
@@ -216,6 +216,21 @@ const achievementSection = {
         {
           name: "Ver en Youtube",
           url: "https://youtu.be/xWOxJ4gghvE?feature=shared"
+        }
+      ]
+    },
+    {
+      title:
+        "Certificaciones",
+      subtitle:
+        "Una coleccion de certificaciones demostrando mis amplias habilidades y conocimientos en canto, pedagogía vocal, dirección coral y doblaje de voz. Estas certificaciones reflejan mi compromiso con la excelencia y mi pasión por la música y la enseñanza.",
+      image: require("./assets/images/Logo-Certificaciones.webp"),
+      imageAlt:
+        "Certificaciones",
+      footerLink: [
+        {
+          name: "Ver certificaciones",
+          url: "https://drive.google.com/drive/folders/1y74yz-VrBKMspXboXL6q6Z5keNYpjtBF?usp=sharing"
         }
       ]
     }
