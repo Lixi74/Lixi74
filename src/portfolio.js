@@ -220,13 +220,11 @@ const achievementSection = {
       ]
     },
     {
-      title:
-        "Certificaciones",
+      title: "Certificaciones",
       subtitle:
         "Una coleccion de certificaciones demostrando mis amplias habilidades y conocimientos en canto, pedagogía vocal, dirección coral y doblaje de voz. Estas certificaciones reflejan mi compromiso con la excelencia y mi pasión por la música y la enseñanza.",
       image: require("./assets/images/Logo-Certificaciones.webp"),
-      imageAlt:
-        "Certificaciones",
+      imageAlt: "Certificaciones",
       footerLink: [
         {
           name: "Ver certificaciones",

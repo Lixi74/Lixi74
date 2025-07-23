@@ -95,17 +95,13 @@
   .greeting-text-p {
     font-size: 20px;
   }
-
-  
 }
 
-@media (min-width: 1380px)
- {
+@media (min-width: 1380px) {
   .greeting-image-div > img {
     object-fit: contain;
     padding-top: 80px;
   }
-  
 }
 
 /* Media Query for tablets (iPad) */
