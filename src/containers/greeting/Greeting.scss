@@ -4,11 +4,11 @@
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 0 10px;
   margin: 0px auto;
   margin-top: 2rem;
 }
@@ -19,10 +19,6 @@
 
 .subTitle {
   color: $subTitle !important;
-}
-
-.greeting-main {
-  display: flex;
 }
 
 .greeting-main > * {
@@ -56,6 +52,7 @@
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
+  // padding-top: 50px;
 }
 
 .wave-emoji {
@@ -98,7 +95,35 @@
   .greeting-text-p {
     font-size: 20px;
   }
+
+  
 }
+
+@media (min-width: 1380px)
+ {
+  .greeting-image-div > img {
+    object-fit: contain;
+    padding-top: 80px;
+  }
+  
+}
+
+/* Media Query for tablets (iPad) */
+@media (max-width: 1024px) and (min-width: 760px) {
+  .greeting-image-div {
+    // height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .greeting-image-div > img {
+    max-width: 80%;
+    object-fit: contain;
+    // padding-top: 110px;
+  }
+}
+
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
@@ -116,7 +141,7 @@
     display: block;
   }
   .greeting-image-div {
-    height: 256px;
+    // height: 256px;
   }
 }
 
