@@ -7,7 +7,7 @@ import {Fade} from "react-reveal";
 
 export default function GithubProfileCard({prof}) {
   if (isHireable) {
-    prof.hireable = "Yes";
+    prof.hireable = "Si";
   } else {
     prof.hireable = "No";
   }
