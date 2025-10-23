@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Lixi",
-  title: "Hola a todos, soy Lixi",
+  username: "Lina Paipa",
+  title: "Hola a todos, soy Lina Paipa",
   subTitle: emoji(
     "Soprano y artista pop. Combino la técnica lírica con la emoción del pop para crear música que conecta. Soy también profesora de técnica vocal, directora coral y actriz de doblaje. Vivo la voz como una herramienta creativa y transformadora, dentro y fuera del escenario."
   ),

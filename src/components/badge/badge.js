@@ -66,7 +66,7 @@ function Badge({splashScreen}) {
           𝄞
         </text>
         {/* Username centered in the pentagram */}
-        <foreignObject x="90" y="10" width="300" height="100">
+        <foreignObject x="110" y="20" width="280" height="60">
           <div className={usernameContainerClass}>{greeting.username}</div>
         </foreignObject>
       </svg>
