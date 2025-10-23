@@ -35,6 +35,9 @@ jobs:
           npm install
           npm run build
 
+      - name: Create CNAME file 🔧
+        run: echo "linapaipa.me" > build/CNAME
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
