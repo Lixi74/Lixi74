@@ -5,7 +5,7 @@ env:
   REACT_APP_GITHUB_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }} # This is automatically set by Github Actions
   USE_GITHUB_DATA: "true"
   # MEDIUM_USERNAME: "" # Change this to your medium username
-  PUBLIC_URL: "/Lixi74"
+  PUBLIC_URL: ""
 on:
   workflow_dispatch:
   push:
