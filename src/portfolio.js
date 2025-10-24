@@ -32,7 +32,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  linkedin: "https://www.linkedin.com/in/lina-paipa-233399369/",
+  linkedin: "https://www.linkedin.com/in/linapaipa/",
   gmail: "linapaipa74@gmail.com",
   facebook: "https://www.facebook.com/linaximena.paipaalvarez",
   instagram: "https://www.instagram.com/lina_paipa/",
