@@ -23,7 +23,7 @@ const greeting = {
   username: "Lina Paipa",
   title: "Hola a todos, soy Lina Paipa",
   subTitle: emoji(
-    "Soprano y artista pop. Combino la técnica lírica con la emoción del pop para crear música que conecta. Soy también profesora de técnica vocal, directora coral y actriz de doblaje. Vivo la voz como una herramienta creativa y transformadora, dentro y fuera del escenario."
+    "Soprano y artista pop, combino la técnica lírica con la emoción del pop para crear música que conecta. Soy profesora de técnica vocal, directora coral y actriz de doblaje. Vivo la voz como una herramienta creativa y transformadora, dentro y fuera del escenario."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -58,7 +58,7 @@ const skillsSection = {
       "🎵 Directora coral, encargada de la preparación vocal y liderazgo artístico"
     ),
     emoji(
-      "🎵 Habilidosa vocalista para agrupaciones y colaboraciones, tanto como solista como integrante clave en ensambles corales"
+      "🎵 Habilidosa vocalista para agrupaciones y colaboraciones, tanto como solista como integrante clave en ensambles "
     )
   ],
 
@@ -194,7 +194,7 @@ const achievementSection = {
     {
       title: "Recital de grado",
       subtitle:
-        "Con orgullo enseño mi recital de grado en el auditorio de Uniandinos. Pasando por las obras :",
+        "Registro de mi recital de grado en el Auditorio Uniandinos. Programa destacado: canciones de Robert Schumann (Frauenliebe und Leben, Op. 42), piezas de Henri Duparc, un ciclo de canciones infantiles de Jaime León, 'Dido's Lament' (Purcell) y obras de Antonín Dvořák.",
       image: require("./assets/images/Recital.webp"),
       imageAlt: "Puesta en escena del recital de grado",
       footerLink: [
